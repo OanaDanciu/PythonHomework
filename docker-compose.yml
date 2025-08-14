@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: math-service
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"

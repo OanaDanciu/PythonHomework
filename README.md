@@ -134,8 +134,3 @@ math/
 
 ```
 
----
-
-## 👩‍💻 Author
-**Oana-Maria Danciu**
-Dava.X Academy – 2025
